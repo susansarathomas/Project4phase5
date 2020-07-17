@@ -30,6 +30,7 @@ public class MainDemo {
 		}
 		@Test(priority=1)
 		public void regiternewaccound() {
+			//Change the user emailid and password each time u run the code otherwise it willl show that user has already registered
 			driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).click();
 			driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			driver.findElement(By.xpath("//*[@id=\"email_create\"]")).sendKeys("susan123@gmail.com");
@@ -143,9 +144,9 @@ public class MainDemo {
 		  	JavascriptExecutor js3=(JavascriptExecutor)driver;
 		  	js3.executeScript("scrollBy(0,450)");
 		  	driver.findElement(By.xpath("//*[@id=\"center_column\"]/div/p/a/i")).click();
-		  //driver.findElement(By.xpath("//*[@id=\"form\"]/p/a/i")).click();
-		  //driver.findElement(By.xpath("//*[@id=\"center_column\"]/form/p/a/i")).click(); 
-		  //driver.findElement(By.xpath("//*[@id=\"center_column\"]/p[2]/a[2]/i")). click();
+		  	//driver.findElement(By.xpath("//*[@id=\"form\"]/p/a/i")).click();
+		  	//driver.findElement(By.xpath("//*[@id=\"center_column\"]/form/p/a/i")).click(); 
+		  	//driver.findElement(By.xpath("//*[@id=\"center_column\"]/p[2]/a[2]/i")). click();
 		  	driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a")).click(); 
 		  	System.out.println("Item added to card succesfully"); 
 		  }
@@ -157,8 +158,8 @@ public class MainDemo {
 			System.out.println("Logged out successfully");
 		}
 		  
-		  @Test(priority=8)
-		  public void invalidlogin() {
+		@Test(priority=8)
+		public void invalidlogin() {
 			  driver.findElement(By.xpath("//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")).click(); 
 			  driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 			  driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("aaa123@gmail.com");
@@ -167,9 +168,6 @@ public class MainDemo {
 			  System.out.println("Sorry invalid login Id and password"); 
 		}
 		 
-		
-		
-		
 		@AfterMethod
 		public void tearDown() {
 			//driver.quit();
