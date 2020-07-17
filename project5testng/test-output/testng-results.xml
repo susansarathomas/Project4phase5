@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60117" started-at="2020-07-17T15:32:14 IST" finished-at="2020-07-17T15:33:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60117" started-at="2020-07-17T15:32:14 IST" finished-at="2020-07-17T15:33:14 IST">
+      <class name="mydemo.MainDemo">
+        <test-method status="PASS" signature="setURL()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="setURL" is-config="true" duration-ms="12074" started-at="2020-07-17T15:32:14 IST" finished-at="2020-07-17T15:32:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setURL -->
+        <test-method status="PASS" signature="regiternewaccound()[pri:1, instance:mydemo.MainDemo@3dd4520b]" name="regiternewaccound" duration-ms="8348" started-at="2020-07-17T15:32:26 IST" finished-at="2020-07-17T15:32:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regiternewaccound -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-17T15:32:35 IST" finished-at="2020-07-17T15:32:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="logout1()[pri:2, instance:mydemo.MainDemo@3dd4520b]" name="logout1" duration-ms="3363" started-at="2020-07-17T15:32:35 IST" finished-at="2020-07-17T15:32:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-17T15:32:38 IST" finished-at="2020-07-17T15:32:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login()[pri:3, instance:mydemo.MainDemo@3dd4520b]" name="login" duration-ms="4138" started-at="2020-07-17T15:32:38 IST" finished-at="2020-07-17T15:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-17T15:32:42 IST" finished-at="2020-07-17T15:32:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="search()[pri:4, instance:mydemo.MainDemo@3dd4520b]" name="search" duration-ms="2029" started-at="2020-07-17T15:32:42 IST" finished-at="2020-07-17T15:32:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-17T15:32:44 IST" finished-at="2020-07-17T15:32:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addtowishlist()[pri:5, instance:mydemo.MainDemo@3dd4520b]" name="addtowishlist" duration-ms="5960" started-at="2020-07-17T15:32:44 IST" finished-at="2020-07-17T15:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtowishlist -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-17T15:32:50 IST" finished-at="2020-07-17T15:32:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="addtocard()[pri:6, instance:mydemo.MainDemo@3dd4520b]" name="addtocard" duration-ms="19493" started-at="2020-07-17T15:32:50 IST" finished-at="2020-07-17T15:33:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-07-17T15:33:10 IST" finished-at="2020-07-17T15:33:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="logout()[pri:7, instance:mydemo.MainDemo@3dd4520b]" name="logout" duration-ms="1766" started-at="2020-07-17T15:33:10 IST" finished-at="2020-07-17T15:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="6" started-at="2020-07-17T15:33:11 IST" finished-at="2020-07-17T15:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="invalidlogin()[pri:8, instance:mydemo.MainDemo@3dd4520b]" name="invalidlogin" duration-ms="2872" started-at="2020-07-17T15:33:11 IST" finished-at="2020-07-17T15:33:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidlogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:mydemo.MainDemo@3dd4520b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-17T15:33:14 IST" finished-at="2020-07-17T15:33:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mydemo.MainDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
